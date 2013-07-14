@@ -10,7 +10,7 @@ Drag, and drop the pieces to move. Validating the moves is turned off, so you ca
 Usage
 -----
 
-Add a div with class `chess-board` in the markup. Gonna change that in the futer. You can add any class, or any selector for that matter.
+Add a div with class `chess-board` in the markup. Will be changed in the future. You will be able to set any class, or any selector for that matter.
 
 Add the following JavaScript, to create a chessboard with the default pieces (i.e. the starting orientation):
 
@@ -22,7 +22,7 @@ Add the following JavaScript, to create a chessboard with the default pieces (i.
 	});
 
 
-All options are, well <i>optional<i>. Here's what they all do:
+All options are, well <i>optional</i>. Here's what they all do:
 
 <table>
  <tr>
@@ -31,31 +31,31 @@ All options are, well <i>optional<i>. Here's what they all do:
  </tr>
 
  <tr>
-  <td>`animationTime`</td>
-  <td>Nothing (for now). In future, when your opponent moves, his move is gonna be animated for this amount of duration.</td>
+  <td><code>animationTime</code></td>
+  <td>Nothing (for now). In future, when your opponent moves, his move will be animated for this amount of duration.</td>
  </tr>
 
  <tr>
-  <td>`flip`</td>
-  <td>If set to `true`, flips the board so the black side is your side, i.e. at the bottom.
+  <td><code>flip</code></td>
+  <td>If set to <code>true</code>, flips the board so the black side is your side, i.e. at the bottom.
   <br>
-  Default: `false`
+  Default:<code>false<code>
   </td>
  </tr>
 
  <tr>
   <td>size</td>
-  <td>Width (and Height ('cause chessboard's a square!)) of the board in `px`.
+  <td>Width (and Height ('cause chessboard's a square!)) of the board in <code>px</code>.
   <br>
-  Default: 650
+  Default: <code>650</code>
   </td>
  </tr>
 
  <tr>
   <td><code>validateMoves</code></td>
-  <td>If set to true it, as the name suggests, validates the moves. So you can move anything around anywhere. I've only validated pawns' movement now (except the queening), so if you move anything else, your PC's gonna burn down. I'm not kidding.
+  <td>If set to true it, as the name suggests, validates the moves. So you can move anything around anywhere. I've only validated pawns' movement now (except the queening), so if you move anything else, your PC will burn down. I'm not kidding.
   <br>
-  Default: false
+  Default: <code>false</code>
   </td>
  </tr>
 </table>
