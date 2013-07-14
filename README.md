@@ -28,37 +28,47 @@ All options are, well <i>optional</i>. Here's what they all do:
  <tr>
   <th>Option</th>
   <th>What it does</th>
+  <th>Default value</th>
  </tr>
 
  <tr>
   <td><code>animationTime</code></td>
   <td>Nothing (for now). In future, when your opponent moves, his move will be animated for this amount of duration.</td>
+  <td>
+  <code>100</code>
+  </td>
  </tr>
 
  <tr>
   <td><code>flip</code></td>
   <td>If set to <code>true</code>, flips the board so the black side is your side, i.e. at the bottom.
-  <br>
-  Default:<code>false<code>
+  </td>
+  <td>
+  <code>false</code>
   </td>
  </tr>
 
  <tr>
-  <td>size</td>
+  <td><code>size</code></td>
   <td>Width (and Height ('cause chessboard's a square!)) of the board in <code>px</code>.
-  <br>
-  Default: <code>650</code>
+  </td>
+  <td>
+  <code>650</code>
   </td>
  </tr>
 
  <tr>
   <td><code>validateMoves</code></td>
   <td>If set to true it, as the name suggests, validates the moves. So you can move anything around anywhere. I've only validated pawns' movement now (except the queening), so if you move anything else, your PC will burn down. I'm not kidding.
-  <br>
-  Default: <code>false</code>
+  </td>
+  <td>
+  <code>false</code>
   </td>
  </tr>
 </table>
+
+<h3>Add a piece</h3>
+
 
 To add a piece, write: 
 
@@ -76,10 +86,11 @@ For example,
 
 would add a dark knight to D4.
 
+<h3>Undo</h3>
 
 To undo, simply type:
 
 	$(".chess-board").undo();
 
 
-That's all folks.
+<big>That's all folks.</big>
