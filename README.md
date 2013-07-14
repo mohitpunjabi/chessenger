@@ -53,7 +53,7 @@ All options are, well <i>optional<i>. Here's what they all do:
 
  <tr>
   <td>`validateMoves`</td>
-  <td>If set to `true` it, as the name suggests, validates the moves. So you can' move anything around anywhere. I've only validated pawns movement now, so if you move anything else your PC's gonna burn down. I'm not kidding.
+  <td>If set to `true` it, as the name suggests, validates the moves. So you can' move anything around anywhere. I've only validated pawns' movement now (except the queening), so if you move anything else, your PC's gonna burn down. I'm not kidding.
   <br>
   Default: `false`
   </td>
