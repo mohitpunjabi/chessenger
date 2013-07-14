@@ -44,18 +44,18 @@ All options are, well <i>optional<i>. Here's what they all do:
  </tr>
 
  <tr>
-  <td>`size`</td>
+  <td>size</td>
   <td>Width (and Height ('cause chessboard's a square!)) of the board in `px`.
   <br>
-  Default: `650`
+  Default: 650
   </td>
  </tr>
 
  <tr>
-  <td>`validateMoves`</td>
-  <td>If set to `true` it, as the name suggests, validates the moves. So you can' move anything around anywhere. I've only validated pawns' movement now (except the queening), so if you move anything else, your PC's gonna burn down. I'm not kidding.
+  <td><code>validateMoves</code></td>
+  <td>If set to true it, as the name suggests, validates the moves. So you can move anything around anywhere. I've only validated pawns' movement now (except the queening), so if you move anything else, your PC's gonna burn down. I'm not kidding.
   <br>
-  Default: `false`
+  Default: false
   </td>
  </tr>
 </table>
@@ -64,9 +64,11 @@ To add a piece, write:
 
 	$(".chess-board").add([color, code, position]);
 
-`color`: String. "black" or "white". Possible case-sensitive. I don't remember anymore. Just use lowercase, alright!
+`color`: String. `black` or `white`. Possible case-sensitive. I don't remember anymore. Just use lowercase, alright!
+
 `code`: `p` for a pawn, `R` for a Rook, `Q` for a Queen (or <i>The</i> Queen, if you prefer) and so on. It's the standard notation.
-`position`: String. 2 characters. <File> + <Rank>.
+
+`position`: String. 2 characters. File + Rank.
 
 For example, 
 
