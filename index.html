@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Chessenger</title>
+
+<script type="text/javascript" src="jQuery 1.8.js"></script>
+<script type="text/javascript" src="chessenger.js"></script>
+
+<link rel="stylesheet" type="text/css" href="chessenger.css" />
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var chess = $(".chess-board");
+		chess.initBoard({
+			animationTime: 100,
+			size: 600,
+			flip: false
+		})
+		.add([]);
+		
+		$("#undo").click(function() {
+			chess.undo();
+		});
+	});
+</script>
+</head>
+
+<body>
+	<div class="chess-board">
+    </div>
+    <button id="undo">Undo</button>
+</body>
+</html>

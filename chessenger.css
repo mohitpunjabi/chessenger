@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+
+.chess-board {
+	border: 10px #222 solid;
+	position: relative;
+	display: block;
+}
+
+.chess-board .square{
+	position: absolute;
+	cursor: default;
+
+	-webkit-touch-callout: none;
+   	  -webkit-user-select: none;
+	   -khtml-user-select: none;
+	     -moz-user-select: none;
+	      -ms-user-select: none;
+	          user-select: none;
+}
+
+.square.dark {
+	background: #def;
+//	background: #222;
+}
+
+.square.light {
+//	background: #fbefc3;
+	background: #fff;
+}
+
+.square.dragging {
+	z-index: 101;
+}
+
+.square.dark.selected {
+	background-color: #E9FFCC;
+}
+.square.light.selected {
+	background-color: #FFC;
+}
+
+.square div {
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.square div.piece {
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	background-repeat:  no-repeat;
+	background-image: url(chess.png);
+	background-size: 200%;
+	background-position-x: 3%;
+	position: absolute;
+}
+
+.square .piece.black {
+	background-position-x: 100%;
+}
+
+.square .piece.p {
+	background-position-y: 20%;
+}
+
+.square .piece.R {
+	background-position-y: 60%;
+}
+
+.square .piece.Q {
+	background-position-y: 40%;
+}
+
+.square .piece.B {
+	background-position-y: 80%;
+}
+
+.square .piece.N {
+	background-position-y: 0%;
+}
+
+.square .piece.K {
+	background-position-y: 100%;
+}
+*/
