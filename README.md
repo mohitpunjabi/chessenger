@@ -1,12 +1,11 @@
 Chessenger
 ==========
 
-A jQuery plugin that allows you to create a multiplayer (and single player) chess on your browser.
+A jQuery plugin that creates a multiplayer (and single player) chess on your browser.
 
-Currently it's just a chessboard on the browser. I'm still stuck at the client end. You can create a chessboard of your chosen size, side (black or white), and possibly configuration (what pieces go where), and voila: here's your chessboard.
+Currently it's just a simple chessboard on the browser - no gameplaying. I'm still making the client end.
 
-
-Drag, and drop the pieces to move. Validating the moves is turned off, so you can move anything around, anywhere, and you can undo.
+Drag the pieces to move. In the example, validating the moves is turned off, so you can move anything around, anywhere, and you can undo.
 Usage
 -----
 
